@@ -1,4 +1,5 @@
 // import React from "react";
+import MagicButton from "./ui/MagicButton";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 
@@ -31,6 +32,14 @@ const Hero = () => {
             className="text-center text-[40px] md:text-5xl lg:text5xl lg:text-6xl"
             words="Tramsforming Concepts into Seamless Experiences"
           />
+
+          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl ">
+            Hi, I&apos;m Idemudia, a Full-Stack Developer based in Estonia
+          </p>
+
+          <a href="#about">
+            <MagicButton title="Show my work" />
+          </a>
         </div>
       </div>
     </div>
